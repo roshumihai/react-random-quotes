@@ -1,0 +1,99 @@
+.App-container {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navBar {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  z-index: 10;
+  height: auto !important;
+}
+.ulClass {
+  display: flex;
+  letter-spacing: 2px;
+  margin: 0 auto;
+  list-style: none;
+}
+.ulClass li {
+  margin: 0 20px;
+  cursor: pointer;
+  line-height: 35px;
+  padding: 15px;
+}
+.ulClass li:hover {
+  background-color: rgba(27, 58, 231, 0.404);
+  color: white;
+}
+#quote-box {
+  position: relative;
+  max-width: 640px;
+  min-width: 540px;
+  height: 40vh;
+  padding: 15px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  color: #000;
+  background-color: #fff;
+}
+#new-quote {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  width: 100px;
+  padding: 10px;
+  background: #425fc7;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 15px;
+}
+#new-quote:hover {
+  cursor: pointer;
+  background-color: rgba(27, 58, 231, 0.6);
+}
+#tweet-quote {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+#tweet-img {
+  width: 30%;
+}
+#text {
+  font-size: 20px;
+  position: relative;
+  min-height: 40%;
+  border-radius: 15px;
+  background-color: rgba(127, 255, 212, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#author-quote {
+  position: absolute;
+  bottom: 80px;
+  right: 30px;
+}
+.memory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.ulMemory li {
+  margin-top: 15px;
+}
